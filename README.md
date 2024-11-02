@@ -10,3 +10,7 @@ Website created for Alberto Ayala's business _Community Crafted_.
 - Flat BEM file structure
 - A custom form
 - CSS animation and transform
+
+---
+
+## permalink: /index.html
