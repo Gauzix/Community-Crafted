@@ -1,0 +1,42 @@
+.heroMessage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.heroMessage__title {
+  max-width: 480px;
+  font-size: 60px;
+  margin: 0 0 50px;
+}
+
+.heroMessage__text {
+  flex-direction: column;
+  max-width: 500px;
+  padding-right: 50px;
+}
+
+.heroMessage__paragraph {
+  margin: 16px 0 0;
+}
+
+.heroMessage__image {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 884px) {
+  .heroMessage {
+    flex-direction: column;
+  }
+
+  .heroMessage__title {
+    font-size: 32px;
+    margin: 0;
+  }
+
+  .heroMessage__text {
+    padding: 0 0 25px;
+  }
+}

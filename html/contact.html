@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Community Crafted's contact page." />
+    <meta
+      name="keywords"
+      content="HTML, CSS, web development, Community Crafted, Drink, cocktail, Alberto Ayala, contact"
+    />
+    <meta name="author" content="Robinson Kelley" />
+    <link rel="stylesheet" href="../pages/contact.css" />
+    <title>Community Crafted - Contact</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <h1 class="header__title">Community Crafted</h1>
+      <nav class="nav">
+        <ul class="nav__links">
+          <li class="nav__link"><a href="#id-home">Home</a></li>
+          <li class="nav__link"><a href="#id-about">About Us</a></li>
+          <li class="nav__link"><a href="#id-services">Services</a></li>
+          <li class="nav__link"><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content">
+      <section class="contact">
+        <div class="contact__text">
+          <h2 class="contact__title">Contact Us</h2>
+          <p contact__paragraph>
+            Let's start a conversation and see how I can provide you a fantastic
+            experience.
+          </p>
+          <form action="" class="form">
+            <label for="name">Name</label><br />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              class="form__input"
+              required
+            />
+            <br />
+            <label for="email">E-mail</label><br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="form__input"
+              required
+            />
+            <br />
+            <label for="message">Message</label><br />
+            <textarea
+              name="message"
+              id="message"
+              class="form__input"
+              required
+            ></textarea>
+            <br />
+            <button type="submit" class="form__button">Send</button>
+          </form>
+        </div>
+        <img
+          src="../images/contact-image.jpg"
+          alt="letter and drink by Buhai Alexandru Constantin"
+          class="contact__image"
+        />
+      </section>
+    </main>
+    <footer class="footer">
+      <h2 class="footer__title">Let's Have a Drink</h2>
+      <a href="#id-about">
+        <button class="footer__button">About Us</button>
+      </a>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+.form {
+  max-width: 100%;
+  padding: 10px 0 25px;
+  gap: 0 10px;
+}
+
+.form__input {
+  background-color: #f5f3ec;
+  border: none;
+  border: 10px;
+}
+
+#message {
+  width: 250px;
+  height: 100px;
+}
