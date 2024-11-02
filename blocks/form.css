@@ -1,16 +1,20 @@
 .form {
   max-width: 100%;
   padding: 10px 0 25px;
-  gap: 0 10px;
 }
 
 .form__input {
+  display: block;
   background-color: #f5f3ec;
   border: none;
-  border: 10px;
+  border-radius: 5px;
 }
 
-#message {
+.form-error {
+  color: red;
+}
+
+#form-message {
   width: 250px;
   height: 100px;
 }
