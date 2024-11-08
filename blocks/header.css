@@ -17,13 +17,22 @@
   padding-bottom: 20px;
 }
 
+.header__image {
+  display: block;
+  max-width: 450px;
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
 .nav__links {
   display: flex;
   list-style-type: none;
   justify-content: space-around;
   padding: 0;
   margin: auto;
-  max-width: 300px;
+  padding-top: 20px;
+  max-width: 600px;
 }
 
 .nav__link a {
