@@ -14,17 +14,29 @@
   </head>
   <body class="page">
     <header class="header">
-      <img
-        src="./images/CommunityCrafted-Logo-RGB-300dpi.png"
-        alt=""
-        class="header__image"
-      />
+      <a href="https://communitycraftedcocktails.com">
+        <img
+          src="./images/CommunityCrafted-Logo-RGB-300dpi.png"
+          alt=""
+          class="header__image"
+        />
+      </a>
       <nav class="nav">
         <ul class="nav__links">
-          <li class="nav__link"><a href="#id-home">Home</a></li>
-          <li class="nav__link"><a href="#id-about">About Us</a></li>
-          <li class="nav__link"><a href="#id-services">Services</a></li>
-          <li class="nav__link"><a href="#">Contact</a></li>
+          <li class="nav__link">
+            <a href="https://communitycraftedcocktails.com">Home</a>
+          </li>
+          <li class="nav__link">
+            <a href="https://communitycraftedcocktails.com/aboutUs">About Us</a>
+          </li>
+          <li class="nav__link">
+            <a href="https://communitycraftedcocktails.com/services"
+              >Services</a
+            >
+          </li>
+          <li class="nav__link">
+            <a href="https://communitycraftedcocktails.com/contact">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -36,46 +48,45 @@
             Let's start a conversation and see how I can provide you a fantastic
             experience.
           </p>
-          <form class="form" id="form" method="POST" action="contact-form.php">
-            <div class="form__row form__error" style="display: none"></div>
-            <div class="form__row">
-              <label for="form-name">Name:</label>
-              <input
-                id="form-name"
-                class="form__input"
-                type="text"
-                name="name"
-                required
-              />
-            </div>
-            <div class="form__row">
-              <label for="form-email">Email:</label>
-              <input
-                id="form-email"
-                class="form__input"
-                type="email"
-                name="email"
-                required
-              />
-            </div>
-            <div class="form__row">
-              <label for="form-phone">Phone:</label>
-              <input
-                id="form-phone"
-                class="form__input"
-                type="tel"
-                name="phone"
-              />
-            </div>
-            <div class="form__row">
-              <label for="form-message">Message:</label>
-              <textarea
-                id="form-message"
-                class="form__input"
-                name="message"
-                required
-              ></textarea>
-            </div>
+          <!-- Client does not want to use a database so using formsubmit.com to send forms to their email -->
+          <!-- Note: replace my email with client's email -->
+          <form
+            class="form"
+            id="form"
+            method="POST"
+            action="https://formsubmit.co/communitycraftedcocktails@gmail.com"
+          >
+            <label for="form-name">Name:</label>
+            <input
+              id="form-name"
+              class="form__input"
+              type="text"
+              name="name"
+              required
+            />
+            <label for="form-email">Email:</label>
+            <input
+              id="form-email"
+              class="form__input"
+              type="email"
+              name="email"
+              required
+            />
+            <label for="form-phone">Phone:</label>
+            <input
+              id="form-phone"
+              class="form__input"
+              type="tel"
+              name="phone"
+              required
+            />
+            <label for="form-message">Message:</label>
+            <textarea
+              id="form-message"
+              class="form__input"
+              name="message"
+              required
+            ></textarea>
             <button type="submit">Submit</button>
           </form>
         </div>
