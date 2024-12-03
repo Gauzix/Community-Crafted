@@ -13,4 +13,4 @@ Website created for Alberto Ayala's business _Community Crafted_.
 
 ---
 
-## permalink: /index.html
+https://communitycraftedcocktails.com/
