@@ -28,6 +28,7 @@
 @media screen and (max-width: 1000px) {
   .contact {
     flex-direction: column;
+    padding: 0;
   }
 
   .contact__text {
