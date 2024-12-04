@@ -4,12 +4,6 @@
   justify-content: center;
 }
 
-.heroMessage__title {
-  max-width: 480px;
-  font-size: 60px;
-  margin: 0 0 50px;
-}
-
 .heroMessage__text {
   flex-direction: column;
   max-width: 500px;
