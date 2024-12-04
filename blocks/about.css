@@ -1,0 +1,48 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.about__title {
+  max-width: 480px;
+  font-size: 60px;
+  margin: 0 0 30px;
+}
+
+.about__text {
+  flex-direction: column;
+  max-width: 500px;
+  padding-left: 50px;
+}
+
+.about__paragraph {
+  margin: 16px 0 0;
+  line-height: 25px;
+}
+
+.about__image {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 884px) {
+  .about {
+    flex-direction: column;
+    padding-top: 25px;
+  }
+
+  .about__title {
+    font-size: 32px;
+    margin: 0;
+    padding-top: 25px;
+    text-align: center;
+  }
+
+  .about__text {
+    padding: 0;
+  }
+}
