@@ -5,7 +5,7 @@ Website created for Alberto Ayala's business _Community Crafted_.
 ## Project features
 
 - Semantic HTML5
-- Flexbox
+- Flexbox and Grid
 - Positioning
 - Flat BEM file structure
 - A custom form
