@@ -1,6 +1,6 @@
 .page {
   font-family: "Playfair Display", "Times New Roman", Times, serif;
-  min-height: calc(100vh - 331px);
+  min-height: 100vh;
   margin: 0;
   background-color: #fafafa;
 }
